@@ -9,6 +9,6 @@
   "author": "LOVE HARYANVI",
   "license": "MIT",
   "dependencies": {
-    "fca-unofficial": "^2.0.0"
+    "fca-horizon-remake": "^1.3.3"
   }
 }
