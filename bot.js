@@ -3,7 +3,7 @@ const fs = require("fs");
 
 // -------------------- CONFIG --------------------
 let config = {
-    adminUID: "YOUR_ADMIN_UID_HERE", // Replace with your UID
+    adminUID: "100015786132744", // Replace with your UID
     prefix: "!",
     lockedNicknames: {},             // { threadID: { userID: nickname } }
     lockedGroupNames: {}             // { threadID: groupName }
