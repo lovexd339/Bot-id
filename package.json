@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "your-name-here",
+  "author": "LOVE HARYANVI",
   "license": "MIT",
   "dependencies": {
     "fca-unofficial": "^2.0.0"
