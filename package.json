@@ -1,14 +1,11 @@
 {
-  "name": "fb-locker-bot",
+  "name": "your-bot-name",
   "version": "1.0.0",
-  "description": "A Facebook Messenger bot with nickname & group name lock, using AppState.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "LOVE HARYANVI",
-  "license": "MIT",
   "dependencies": {
-    "fca-horizon-remake": "^1.3.3"
+    "fca-horizon-remake": "1.2.1"
   }
 }
