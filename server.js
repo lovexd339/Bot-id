@@ -1,10 +1,15 @@
-const http = require("http");
-const PORT = process.env.PORT || 3000;
+const express = require("express");
+const app = express();
 
-// Dummy HTTP server (Render ko lagna chahiye ki server chal raha hai)
-http.createServer((req, res) => {
-  res.end("FB Locker Bot is running!");
-}).listen(PORT, () => console.log("Server running on port", PORT));
-
-// Apna bot start karo
+// ✅ Bot को load कर लिया
 require("./locker.js");
+
+// Homepage route (Render को चाहिए alive server)
+app.get("/", (req, res) => {
+  res.send("Bot is running ✅");
+});
+
+// Server start
+app.listen(3000, () => {
+  console.log("Web server started on port 3000");
+});
