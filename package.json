@@ -1,13 +1,13 @@
 {
   "name": "fb-messenger-bot",
   "version": "1.0.0",
-  "description": "Facebook Messenger bot with admin commands, nickname/group lock, and message sending",
+  "description": "Facebook Messenger bot with facebook-chat-api",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "facebook-chat-api": "^1.11.0"
+    "facebook-chat-api": "^1.6.0"
   },
   "engines": {
     "node": "18.x"
