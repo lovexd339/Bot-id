@@ -1,15 +1,14 @@
 {
-  "name": "fb-messenger-bot",
+  "name": "fb-locker-bot",
   "version": "1.0.0",
-  "description": "Facebook Messenger bot with facebook-chat-api",
-  "main": "bot.js",
+  "description": "A Facebook Messenger bot with nickname & group name lock, using AppState.",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node index.js"
   },
+  "author": "your-name-here",
+  "license": "MIT",
   "dependencies": {
-    "facebook-chat-api": "^1.6.0"
-  },
-  "engines": {
-    "node": "18.x"
+    "fca-unofficial": "^2.0.0"
   }
 }
