@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "locker.js",
   "scripts": {
-    "start": "node locker.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "facebook-chat-api": "latest"
